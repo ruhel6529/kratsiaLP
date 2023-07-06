@@ -1,0 +1,54 @@
+.createSection {
+  background-color: var(--bg-main);
+  padding: 5rem 0;
+  margin-bottom: 100px;
+}
+
+.createSection .mainRow {
+  justify-content: center;
+  align-items: center;
+}
+
+.createSection .sectionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createSection .content .sectionTitle {
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+.createSection .galleryRow {
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.createSection .galleryImage {
+  overflow: hidden;
+}
+
+.createSection .galleryImage img {
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.createSection .galleryImage:hover img {
+  transform: scale(1.3);
+}
+
+@media (max-width: 992px) {
+  .createSection .content .sectionTitle {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .createSection .galleryImage {
+    margin-bottom: 1rem;
+  }
+}

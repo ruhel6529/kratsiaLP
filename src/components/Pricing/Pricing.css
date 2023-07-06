@@ -1,0 +1,113 @@
+.pricingSection {
+  margin-bottom: 100px;
+}
+
+.pricingSection .sectionHeading {
+  text-align: center;
+}
+
+.pricingSection .sectionHeading .sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pricingSection .sectionHeading .subTitle {
+  font-size: 1.7rem;
+}
+
+.pricingSection .sectionHeading .subTitle span {
+  background: var(--bg-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricingSection .priceCard {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricingSection .pricingRow {
+  justify-content: end;
+  margin-top: 3rem;
+}
+
+.pricingSection .cardHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricingSection .cardHeading .text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  background: var(--bg-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricingSection .priceCard .priceTitle {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pricingSection .priceCard .price {
+  display: flex;
+  align-items: center;
+}
+
+.pricingSection .priceCard .price h5 {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.pricingSection .priceCard .price .priceText {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.pricingSection .priceCard .priceBtn {
+  width: 100%;
+}
+
+.pricingSection .priceCard .priceBtn .cta {
+  display: block;
+  text-align: center;
+  border: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricingSection .priceCard .priceText {
+  font-size: 1.2rem;
+}
+
+.pricingSection .priceCard .list {
+  list-style: none;
+}
+
+.pricingSection .priceCard .list li {
+  margin-bottom: 1rem;
+}
+
+.pricingSection .priceCard .list li img {
+  margin-right: 1rem;
+}
+
+@media (max-width: 992px) {
+  .pricingSection .priceCard {
+    margin-bottom: 2rem;
+  }
+}
